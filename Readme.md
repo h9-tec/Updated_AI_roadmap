@@ -2,6 +2,58 @@
 
 This living document serves as your complete guide to mastering data science, machine learning, and artificial intelligence. Whether you're starting from scratch or advancing your existing skills, this roadmap provides a structured learning path with carefully curated resources.
 
+flowchart TD
+    Start([Start Your Journey]) --> Foundation[Foundation Phase]
+    Foundation --> Math[Mathematics Essentials]
+    Foundation --> Programming[Programming Fundamentals]
+    
+    Math --> LinearAlgebra[Linear Algebra]
+    Math --> Calculus[Calculus]
+    Math --> Probability[Probability & Statistics]
+    
+    Programming --> Python[Python Programming]
+    Programming --> DevPractices[Development Best Practices]
+    
+    Foundation --> Intermediate[Intermediate Phase]
+    
+    Intermediate --> DataAnalysis[Data Analysis & Visualization]
+    Intermediate --> ML[Machine Learning Foundations]
+    
+    DataAnalysis --> EDA[Exploratory Data Analysis]
+    DataAnalysis --> DataViz[Data Visualization]
+    
+    ML --> Supervised[Supervised Learning]
+    ML --> Unsupervised[Unsupervised Learning]
+    
+    Intermediate --> Advanced[Advanced Phase]
+    
+    Advanced --> DeepLearning[Deep Learning]
+    Advanced --> NLP[Natural Language Processing]
+    Advanced --> CV[Computer Vision]
+    
+    DeepLearning --> NN[Neural Networks]
+    DeepLearning --> DLFrameworks[Frameworks & Tools]
+    
+    NLP --> CoreNLP[Core NLP Concepts]
+    NLP --> AdvancedNLP[Advanced NLP]
+    
+    CV --> CVFundamentals[CV Fundamentals]
+    CV --> AdvancedCV[Advanced Computer Vision]
+    
+    Advanced --> Projects[Implementation Path]
+    
+    Projects --> BeginnerProjects[Beginner Projects]
+    Projects --> IntermediateProjects[Intermediate Projects]
+    Projects --> AdvancedProjects[Advanced Projects]
+    
+    AdvancedProjects --> Mastery([AI/ML Mastery])
+
+    style Start fill:#f9f,stroke:#333,stroke-width:4px
+    style Mastery fill:#f96,stroke:#333,stroke-width:4px
+    style Foundation fill:#bbf,stroke:#333,stroke-width:2px
+    style Intermediate fill:#bfb,stroke:#333,stroke-width:2px
+    style Advanced fill:#ffb,stroke:#333,stroke-width:2px
+
 ## Why This Roadmap?
 
 Modern data science requires understanding multiple interconnected domains. This roadmap breaks down complex topics into manageable segments, helping you:
