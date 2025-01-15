@@ -1,7 +1,7 @@
 # Data Science & AI Learning Path: A Comprehensive Guide
 
 This living document serves as your complete guide to mastering data science, machine learning, and artificial intelligence. Whether you're starting from scratch or advancing your existing skills, this roadmap provides a structured learning path with carefully curated resources.
-
+```mermaid
 flowchart TD
     Start([Start Your Journey]) --> Foundation[Foundation Phase]
     Foundation --> Math[Mathematics Essentials]
@@ -53,6 +53,7 @@ flowchart TD
     style Foundation fill:#bbf,stroke:#333,stroke-width:2px
     style Intermediate fill:#bfb,stroke:#333,stroke-width:2px
     style Advanced fill:#ffb,stroke:#333,stroke-width:2px
+```
 
 ## Why This Roadmap?
 
